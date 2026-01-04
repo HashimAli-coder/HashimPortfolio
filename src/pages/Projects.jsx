@@ -11,6 +11,10 @@ import {
 import { SiMongodb, SiPhp, SiHtml5, SiCss3, SiNextdotjs, SiSupabase, SiMysql } from "react-icons/si";
 import Dream from "../assets/Dream.png"
 import Food from "../assets/Food.png"
+import Trivera from "../assets/Trivera.png"
+import WriteTrack from "../assets/WriteTrack.png"
+import EternalLegacy from "../assets/Eternal.png"
+import GreenGrocers from "../assets/Green.png"
 import Recruit from "../assets/Recruit.png"
 import Job from "../assets/Job.png"
 import Footer from "../components/Footer"
@@ -24,9 +28,51 @@ const projects = [
     alt : "Project",
     tech: [<FaReact />, <FaNode />, <SiMongodb />, <FaPython />, <FaDatabase />],
     rating: 5,
-    link: "https://dream-study.vercel.app",
+    link: "https://dream-study-frontend.vercel.app/",
     align: "left",
   },
+  {
+  name: "Trivera",
+  description: "A MERN-based multi-role e-commerce platform enabling vendors, customers, and delivery partners to seamlessly manage products, orders, and logistics with real-time updates and secure payments.",
+  image: Trivera,
+  alt: "Project",
+  tech: [<FaReact />, <FaNode />, <SiMongodb />, <FaDatabase />],
+  rating: 5,
+  link: "https://trivera.vercel.app",
+  align: "right",
+},
+{
+  name: "WriteTrack",
+  description: "An interactive MERN application designed to help low-grade students enhance their writing skills using guided prompts, scoring, feedback tools, and progress tracking.",
+  image: WriteTrack,
+  alt: "Project",
+  tech: [<FaReact />, <FaNode />, <SiMongodb />, <FaDatabase />],
+  rating: 5,
+  link: "https://writetrackassessment.co.uk",
+  align: "left",
+},
+
+{
+  name: "Eternal Legacy",
+  description: "A collaborative MERN application that allows families and communities to create, preserve, and share digital memorials with photos, stories, timelines, and tribute interactions.",
+  image: EternalLegacy,
+  alt: "Project",
+  tech: [<FaReact />, <FaNode />, <SiMongodb />, <FaDatabase />],
+  rating: 5,
+  link: "https://eternal-legacy.vercel.app",
+  align: "right",
+},
+{
+  name: "Green Grocers",
+  description: "A smooth and intuitive MERN-powered grocery shopping platform offering product browsing, smart carts, delivery scheduling, and vendor inventory management.",
+  image: GreenGrocers,
+  alt: "Project",
+  tech: [<FaReact />, <FaNode />, <SiMongodb />, <FaDatabase />],
+  rating: 5,
+  link: "https://green-grocers-frontend.vercel.app/",
+  align: "left",
+},
+
   {
     name: "Recruit With AI",
     description: "Next-gen SaaS AI recruitment platform built with Supabase, React & Next.js. Streamlines hiring using AI to screen CVs, match jobs, and manage users/roles securely.Code = AZKY",
@@ -120,15 +166,17 @@ const Projects = () => {
             </div>
 
             {/* Image */}
-            <div className="md:w-1/2 relative group">
-              <div className="overflow-hidden rounded-3xl shadow-xl shadow-primary/30 border border-primary/20">
-                <img
-                  src={project.image}
-                  alt={project.name}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90"
-                />
-              </div>
-            </div>
+            {/* Image */}
+<div className="md:w-1/2 relative group">
+  <div className="overflow-hidden rounded-3xl shadow-xl shadow-primary/30 border border-primary/20 aspect-[16/9] bg-gray-900">
+    <img
+      src={project.image}
+      alt={project.name}
+      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+    />
+  </div>
+</div>
+
           </motion.div>
         ))}
       </div>

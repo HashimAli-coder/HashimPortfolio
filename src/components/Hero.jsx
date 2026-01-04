@@ -15,7 +15,7 @@ const Hero = () => {
           Follow me on
         </p>
         <a
-          href="https://www.instagram.com/hashim0112?igsh=ZjNmeDZrcWZ1NXlw"
+          href="https://www.instagram.com/hashim.leo.01?igsh=ZjNmeDZrcWZ1NXlw"
           target="_blank"
           rel="noopener noreferrer"
         >

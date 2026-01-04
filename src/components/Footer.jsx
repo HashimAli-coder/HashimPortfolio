@@ -57,7 +57,7 @@ const Footer = () => {
                 <FaLinkedin />
               </a>
               <a
-                href="https://www.instagram.com/hashim0112?igsh=ZjNmeDZrcWZ1NXlw"
+                href="https://www.instagram.com/hashim.leo.01?igsh=ZjNmeDZrcWZ1NXlw"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-transform hover:scale-110"

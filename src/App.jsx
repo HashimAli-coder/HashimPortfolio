@@ -6,6 +6,7 @@ import WorkWithMe from "./pages/WorkWithMe";
 import CursorCircle from "./components/CursorCircle";
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
+import Experience from "./pages/Experience";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/feedback" element={<Feedback />} />
         <Route path="/work-with-me" element={<WorkWithMe />} />
+        <Route path="/experience" element={<Experience />} />
         
       </Routes>
     </BrowserRouter>

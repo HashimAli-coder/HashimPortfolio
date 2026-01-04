@@ -101,7 +101,7 @@ export default function AboutSection() {
       title: "Bachelor in Information Technology",
       details: [
         "National University of Modern Languages (NUML)",
-        "8 Semester | CGPA: 3.9",
+        "CGPA: 3.9",
         "Duration: 2022 – 2026",
       ],
       img: NUML,

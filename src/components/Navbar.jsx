@@ -9,12 +9,14 @@ import {
   FaPaperPlane,
   FaBars,
   FaTimes,
+  FaBriefcase
 } from "react-icons/fa";
 import { Link as ScrollLink } from "react-scroll";
 
 const navItems = [
   { label: "Home", path: "/", icon: <FaHome /> },
   { label: "About", path: "/about", icon: <FaUserAlt /> },
+  { label: "Experience", path: "/experience", icon: <FaBriefcase /> },
   { label: "Projects", path: "/projects", icon: <FaProjectDiagram /> },
   { label: "Feedback", path: "/feedback", icon: <FaCommentDots /> },
   { label: "Work With Me", path: "/work-with-me", icon: <FaPaperPlane /> },
